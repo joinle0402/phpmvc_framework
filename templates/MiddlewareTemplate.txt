@@ -1,0 +1,14 @@
+<?php
+namespace application\middlewares;
+
+use application\core\Middleware;
+use application\core\Request;
+use application\core\Response;
+
+class $componentName implements Middleware
+{
+    public function handle(Request $request, Response $response)
+    {
+
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "administrator/phpmvc_framework",
+    "autoload": {
+        "psr-4": {
+            "application\\": "./"
+        }
+    },
+    "require": {
+        "sunra/php-simple-html-dom-parser": "1.5.2",
+        "symfony/dom-crawler": "^5.4",
+        "symfony/css-selector": "^5.4"
+    }
+}

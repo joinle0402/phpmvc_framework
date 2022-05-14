@@ -1,0 +1,27 @@
+<?php
+namespace application\models;
+
+use application\core\Model;
+
+class $componentName extends Model
+{
+    public function __construct(array $dataRequest = [])
+    {
+        parent::__construct($dataRequest);
+    }
+
+	function tableName(): string
+    {
+        return '';
+	}
+
+	function primaryKey(): string
+    {
+        return '';
+	}
+
+	function attributes(): array
+    {
+        return [];
+	}
+}

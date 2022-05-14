@@ -1,0 +1,24 @@
+<?php
+namespace application\migrations;
+
+use PDO;
+
+class $componentName
+{
+    protected PDO $connection;
+
+    public function __construct(PDO $connection)
+    {
+        $this->connection = $connection;
+    }
+
+    public function up()
+    {
+
+    }
+
+    public function down()
+    {
+
+    }
+}
